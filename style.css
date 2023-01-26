@@ -1,0 +1,233 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 5fr 1fr;
+  grid-template-rows: 1.1fr 1fr;
+
+ 
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+
+ 
+
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item1{
+  
+  font-size: 30px;
+  text-align: center;
+  background-color: lightgray;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #F4DD0C;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+}
+
+
+
+
+
+img{
+  height:100%;
+  width: 100%;
+}
+.text{
+  font-size: 65%;
+  text-align: left;
+  margin: 4px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+h1{
+  font-size: 50px;
+  text-align: left;
+  margin-left: 11%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.review{
+  margin-left:40px ;
+  margin-right:40px ;
+  border-radius: 10px;
+  background-color: lightgray;
+  font-size: 6px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  height: 15%;
+}
+
+
+  .ingr{
+    font-size: 15px;
+
+  }
+  .grad{
+    font-size: 15px;
+   
+  }
+  .ugn{
+    font-size: 15px;
+   
+  }
+.star{
+  width: 55%;
+  height: auto;
+  align-items: center;
+  margin-left: 10%;
+}
+
+
+
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+.rub{
+  margin: 5%;
+  text-align: left;
+}
+
+.rub h1{
+  font-size: 100%;
+  text-align: left;
+  margin-left: -5%;
+}
+.instruktioner{
+font-size: 90%;
+text-align: left;
+}
+
+.rub2{
+  margin-left:20px ;
+  margin-right:20px ;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  height: 10%;
+  margin-top: 10%;
+
+  
+}
+
+.portion{
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  text-align: left;
+  
+}
+.plus{
+ background-color: lightgrey;
+ margin-top:5px ;
+ margin-bottom:5px ;
+ margin-left: 40px;
+ margin-right: 40px;
+ border-radius: 10px;
+ color: #F4DD0C;
+ 
+}
+.minus{
+  background-color: lightgrey;
+  margin-top:5px ;
+ margin-bottom:5px ;
+ margin-left: 40px;
+ margin-right: 40px;
+ border-radius: 10px;
+ color: #F4DD0C;
+}
+.ingrediens{
+  font-size: 25px;
+}
+
+
+.ing{
+  font-size: 25px;
+  background-color: white;
+  margin: 20px;
+  text-align: left;
+  border-radius: 7px;
+}
+.ingredienser1{
+ margin: 2%;
+}
+
+.bru{
+  grid-template-columns: 1fr 2fr;
+  display: grid;
+}
+.öö{
+
+}
